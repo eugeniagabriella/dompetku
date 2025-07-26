@@ -1,0 +1,67 @@
+.page-background {
+  min-height: 100vh;
+  padding: 32px 16px;
+  background: linear-gradient(to right, #fef3c7, #d1fae5);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  font-family: 'Poppins', sans-serif;
+}
+
+.kasbon-container {
+  background-color: #ffffff;
+  padding: 28px 24px;
+  border-radius: 20px;
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.06);
+  max-width: 500px;
+  width: 100%;
+  margin-top: 40px;
+}
+
+.kasbon-header h3 {
+  font-size: 20px;
+  margin-bottom: 24px;
+  text-align: center;
+  color: #1e293b;
+}
+
+.reputasi-box {
+  padding: 24px;
+  border-radius: 16px;
+  background-color: #f9fafb;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
+  text-align: center;
+  border-left: 5px solid #e2e8f0;
+  transition: transform 0.2s ease;
+}
+
+.reputasi-box:hover {
+  transform: translateY(-2px);
+}
+
+.reputasi-nilai {
+  font-size: 48px;
+  font-weight: bold;
+  color: #0f766e;
+}
+
+.reputasi-deskripsi {
+  margin-top: 12px;
+  font-size: 14px;
+  color: #475569;
+}
+
+.reputasi-box.baik {
+  border-left-color: #22c55e;
+  background-color: #ecfdf5;
+}
+
+.reputasi-box.sedang {
+  border-left-color: #facc15;
+  background-color: #fefce8;
+}
+
+.reputasi-box.buruk {
+  border-left-color: #ef4444;
+  background-color: #fef2f2;
+}

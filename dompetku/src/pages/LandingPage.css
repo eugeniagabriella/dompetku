@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #ffffff;
+}
+
+.landing-container {
+  min-height: 100vh;
+  padding: 60px;
+  background: linear-gradient(135deg, #9ba7bb, #b2cedb, #ce68b1, #a6c1ee);
+  background-size: 200% 200%;
+  animation: gradientMove 15s ease infinite;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  position: relative;
+}
+
+@keyframes gradientMove {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.left-content {
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  z-index: 2;
+}
+
+.page-title {
+  font-size: 4rem;
+  font-weight: 800;
+  color: #0d1b2a;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.subtitle-animate {
+  font-size: 18px;
+  color: #444;
+  margin-bottom: 16px;
+  animation: fadeInUp 1.2s ease;
+}
+
+@keyframes fadeInUp {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.description {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 50px;
+  line-height: 1.7;
+}
+
+.button-container {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.button-container button {
+  padding: 18px 42px;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: #b12068;
+  color: white;
+  border: none;
+  border-radius: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s;
+  box-shadow: 0 6px 14px rgba(0, 119, 182, 0.3);
+}
+
+.button-container button:hover {
+  background-color: #880e6d;
+  transform: translateY(-2px);
+  box-shadow: 0 0 10px #ff80b5, 0 0 20px #a6f0ff;
+}
+
+.logo-container {
+  width: 360px;
+  margin-right: 40px;
+  margin-top: 40px;
+  z-index: 2;
+}
+
+.logo-container img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  object-fit: contain;
+  filter: drop-shadow(0 6px 18px rgba(0,0,0,0.15));
+}
+
+/* Scroll indicator */
+.scroll-indicator {
+  position: absolute;
+  bottom: 40px;
+  left: 60px;
+  font-size: 24px;
+  animation: bounce 1.8s infinite;
+  color: #b12068;
+  z-index: 2;
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(6px); }
+}
+
+/* Footer */
+.landing-footer {
+  position: absolute;
+  bottom: 20px;
+  left: 60px;
+  font-size: 14px;
+  color: #666;
+  opacity: 0.7;
+  z-index: 2;
+}

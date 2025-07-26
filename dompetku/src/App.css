@@ -1,0 +1,148 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+  background: linear-gradient(to bottom right, #1e3a8a, #38bdf8);
+  background-attachment: fixed;
+  min-height: 100vh;
+  color: #1e293b;
+}
+
+.auth-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to bottom right, #fdfcfb, #e2d1c3); 
+}
+
+.auth-container {
+  background: white;
+  padding: 50px 40px;
+  border-radius: 20px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+  width: 100%;
+  max-width: 420px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.auth-container h2 {
+  margin-bottom: 40px;
+  color: #1e293b;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.auth-container button {
+  padding: 16px;
+  margin-bottom: 20px;
+  width: 100%;
+  background: #0f766e;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background 0.3s;
+}
+
+.auth-container button:hover {
+  background: #115e59;
+}
+
+
+/* HOME PAGE */
+.home-layout {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 30px 20px;
+}
+
+.home-header h1 {
+  font-size: 26px;
+  margin-bottom: 8px;
+}
+
+.home-header p {
+  margin-bottom: 24px;
+  color: #475569;
+}
+
+.saldo-section {
+  margin-bottom: 32px;
+}
+
+.saldo-box {
+  background: white;
+  padding: 20px;
+  border-radius: 14px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 8px;
+}
+
+.form-section {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.form-section input {
+  flex: 1;
+  padding: 14px;
+  border-radius: 10px;
+  border: 1px solid #cbd5e1;
+  font-size: 16px;
+}
+
+.form-section button {
+  background-color: #0ea5e9;
+  color: white;
+  padding: 14px 18px;
+  border: none;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.form-section button:hover {
+  background-color: #0284c7;
+}
+
+.kasbon-section h3 {
+  margin-bottom: 16px;
+}
+
+.kasbon-list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.kasbon-card {
+  background: white;
+  padding: 14px 18px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.kasbon-name {
+  font-weight: 500;
+}
+
+.kasbon-date {
+  font-size: 14px;
+  color: #64748b;
+}
+
+.no-kasbon {
+  color: #e2e8f0;
+  font-style: italic;
+}

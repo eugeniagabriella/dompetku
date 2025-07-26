@@ -1,0 +1,54 @@
+.reward-container {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 30px;
+  background: linear-gradient(135deg, #fdfcfb, #e2d1c3);
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: 'Poppins', sans-serif;
+}
+
+.reward-container h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #333;
+}
+
+.reward-list {
+  list-style: none;
+  padding: 0;
+}
+
+.reward-item {
+  background-color: #fff;
+  padding: 18px 20px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: transform 0.2s ease;
+}
+
+.reward-item:hover {
+  transform: scale(1.02);
+  background-color: #f9f9f9;
+}
+
+.reward-info h4 {
+  margin: 0;
+  font-size: 16px;
+  color: #222;
+}
+
+.reward-info p {
+  margin: 5px 0 0;
+  color: #666;
+  font-size: 13px;
+}
+
+.reward-poin {
+  font-size: 16px;
+  font-weight: bold;
+  color: #f59e0b;
+}

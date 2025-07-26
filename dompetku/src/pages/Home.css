@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to bottom right, #f2f4f7, #e6e9f0);
+  color: #1c1c1c;
+}
+
+.home-page {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.greeting-box {
+  background: #ffffff;
+  border-radius: 24px;
+  padding: 30px 40px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.07);
+  transition: all 0.3s ease-in-out;
+}
+
+.greeting-box h1 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 16px;
+  color: #3d3d3d;
+}
+
+.saldo-box {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.saldo-box span {
+  font-size: 18px;
+  color: #666;
+}
+
+.saldo-box h2 {
+  font-size: 28px;
+  color: #1e88e5;
+  font-weight: 700;
+}
+
+/* Grid Fitur */
+.fitur-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 24px;
+}
+
+.fitur-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 160px;
+  border-radius: 20px;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+  text-align: center;
+}
+
+.fitur-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.1);
+}
+
+.fitur-card .icon {
+  font-size: 38px;
+  margin-bottom: 10px;
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.15);
+  padding: 14px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fitur-card .text {
+  font-size: 18px;
+  font-weight: 600;
+  color: #ffffff;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
