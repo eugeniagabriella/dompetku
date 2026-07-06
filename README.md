@@ -2,6 +2,8 @@
 
 A Web3-based digital wallet designed for micro-financial interactions, combining peer-to-peer transactions, credit (kasbon), and reputation systems on the blockchain.
 
+**Project Period:** June 2025 - August 2025
+
 ---
 
 ## Overview
