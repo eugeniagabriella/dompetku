@@ -80,7 +80,7 @@ Add contacts for faster and more secure transactions.
 - React.js
 - JavaScript (ES6+)
 - CSS
-- (Optional/Planned) Lisk Blockchain Integration
+- Lisk Blockchain Integration
 
 ---
 
