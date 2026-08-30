@@ -7,6 +7,9 @@ A Web3-based digital wallet designed for micro-financial interactions, combining
 ---
 
 ## Overview
+![DompetKu Preview 1](DOMPETKU1.png)
+
+![DompetKu Preview 2](DOMPETKU2.png)
 
 **DompetKu** is a decentralized-inspired financial platform built to support small-scale transactions between users, especially in informal or community-based environments.
 
