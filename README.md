@@ -12,7 +12,7 @@ A Web3-based digital wallet designed for micro-financial interactions, combining
 
 The application focuses on trust-building through a **reputation system**, enabling safer lending (kasbon), repayments, and peer-to-peer transfers.
 
-It was developed as part of the **Lisk Builders Challenge** and was previously deployed as a hosted React.js web application.
+It was developed as part of the *Lisk Builders Challenge* and deployed as a hosted React.js web application.
 
 ---
 
