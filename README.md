@@ -118,11 +118,3 @@ DompetKu is not just a wallet — it is a **trust system for digital micro-trans
 * Builds trust in peer-to-peer transactions
 * Supports informal financial ecosystems
 * Can be extended into real blockchain-based financial systems
-
----
-
-## Deployment
-
-DompetKu was previously deployed as a hosted React.js web application for demonstration and testing.
-
-**Current Status:** Archived — the previous deployment is no longer active.
