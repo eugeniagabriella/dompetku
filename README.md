@@ -100,7 +100,7 @@ Allows users to add contacts for faster and more convenient transactions.
 
 ## My Role
 
-This project was developed as a **solo full-stack project**, with responsibilities including:
+My responsibilities including:
 
 * Designing application architecture
 * Building UI components in React
